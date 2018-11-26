@@ -1,0 +1,96 @@
+export default {
+    "trading_capital": 3.081,
+    "trading_capital_currency": "eth",
+    "balance": 14630,
+    "on_hold": 8300,
+    "growth": "+32.6%",
+    "bots": [
+        {
+            "name": "orange_bot",
+            "nickname": "ATTACK",
+            "image": '/assets/img/Bots/OrangeBot.png',
+            "cost": 550,
+            "24h": 210.1,
+            "7d": 81.3,
+            "30d": 90.7,
+            "60d": 13.4,
+            "90d": -40.6,
+            "all_time": 98.67,
+            "disabled": false
+        },
+        {
+            "name": "white_bot",
+            "nickname": "PLACE BOT HERE",
+            "image": '/assets/img/Bots/HidenBot.png',
+            "cost": 3800,
+            "24h": '',
+            "7d": '',
+            "30d": '',
+            "60d": 46.5,
+            "90d": 38.4,
+            "all_time": '',
+            "disabled": true
+        },
+        {
+            "name": "blue_bot",
+            "nickname": "BALANCE",
+            "image": '/assets/img/Bots/BlueBot.png',
+            "cost": 7400,
+            "24h": -6.5,
+            "7d": -4.3,
+            "30d": -0.17,
+            "60d": 4.32,
+            "90d": 6.8,
+            "all_time": 10.1,
+            "disabled": false
+        }, {
+            "name": "green_bot",
+            "nickname": "DEFENCE",
+            "image": '/assets/img/Bots/GreenBot.png',
+            "cost": 4200,
+            "24h": 3.33,
+            "7d": -17.6,
+            "30d": -2.5,
+            "60d": 13.0,
+            "90d": 25.1,
+            "all_time": 4.99,
+            "disabled": false
+        },
+        {
+            "name": "yellow_bot",
+            "image": '/assets/img/Bots/YellowBot.png',
+            "nickname": "MEGABOT",
+            "cost": 10000,
+            "24h": 3.15,
+            "7d": 0.065,
+            "30d": 4.1,
+            "60d": 15.04,
+            "90d": 80.25,
+            "all_time": 126.85,
+            "disabled": false
+        }, {
+            "name": "red_bot",
+            "nickname": "ATTACH",
+            "image": '/assets/img/Bots/RedBot.png',
+            "cost": 1500,
+            "24h": -10.8,
+            "7d": 5.5,
+            "30d": 11.4,
+            "60d": 12.1,
+            "90d": 24.36,
+            "all_time": 71.0,
+            "disabled": false
+        }, {
+            "name": "blue_bot",
+            "nickname": "BALANCE",
+            "image": '/assets/img/Bots/BlueBot.png',
+            "cost": 7400,
+            "24h": -6.5,
+            "7d": -4.3,
+            "30d": -0.17,
+            "60d": 4.32,
+            "90d": 6.8,
+            "all_time": 10.1,
+            "disabled": false
+        },]
+}

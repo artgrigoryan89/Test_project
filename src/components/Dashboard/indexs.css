@@ -1,0 +1,220 @@
+.dashboardContainer {
+    padding: 0;
+}
+
+/*Header Style*/
+
+.dashboardContainer > .headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7.7vw 4vw;
+}
+
+.dashboardContainer > .headerContainer > h2 {
+    color: #546076;
+    font-weight: bold;
+    font-size: 3.2vw;
+}
+
+.dashboardContainer > .headerContainer > button {
+    background-color: unset;
+    border: unset;
+    cursor: pointer;
+}
+
+.dashboardContainer > .headerContainer > button > img {
+    max-height: 5.3vw  ;
+    max-width: 5.3vw ;
+}
+
+.title p {
+    font-size: 26px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: rgb(84, 96, 118);
+}
+
+/*Balance Style*/
+.dashboardContainer > .balanceContainer {
+    padding: 0 4vw;
+}
+
+.dashboardContainer > .balanceContainer > .balanceRowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.balanceDataSection > h5 {
+    color: #4F6176;
+    font-weight: bold;
+    font-size: 2.6vw;
+    margin: 0;
+}
+
+.balanceDataSection > h3 {
+    color: #FFFFFF;
+    font-size: 6.6vw;
+    margin: 0;
+    font-weight: 400;
+}
+
+.balanceDataSection > p {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2.6vw;
+    margin: 0 10px;
+}
+
+.balanceDataSection > img {
+    max-height: 2.6vw  ;
+    max-width: 2.6vw ;
+}
+
+/*Chart Style*/
+.dashboardContainer > .chartContainer {
+    padding: 0;
+    position: relative;
+}
+
+.dashboardContainer > .chartContainer > p {
+    color: #60A55A;
+    font-size: 6.1vw;
+    margin: 0;
+    position: absolute;
+    top: calc(50% - 5.3vw);
+    left: calc(50% - 10.6vw);
+}
+
+/* Bot Style*/
+
+.dashboardContainer > .botsContainer {
+    padding-top: 1em;
+    position: relative;
+}
+
+.botsContainer > .leftLine {
+    position: absolute;
+    top: 25.6vw;
+    right: 58.3vw;
+    max-height: 16vw ;
+    max-width: 16vw;
+}
+
+.botsContainer > .leftDownLine {
+    position: absolute;
+    top: 45.6vw;
+    right: 58.3vw;
+    max-height: 13vw;
+    max-width: 13vw;
+
+}
+
+.botsContainer > .rightLine {
+    position: absolute;
+    top: 26.6vw;
+    right: 27.3vw;
+    max-height: 16vw;
+    max-width: 16vw;
+}
+.botsContainer > .rightDownLine {
+    position: absolute;
+    top: 45.6vw;
+    right: 28.3vw;
+    max-height: 13vw ;
+    max-width: 13vw;
+}
+
+.dashboardContainer > .botContainer {
+    border: 1px solid #212D40;
+    border-radius: 2px;
+}
+
+.botContainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2C3E;
+    border: 2px solid #182637;
+    border-radius: 5px;
+    min-width: 30.4vw;
+    min-height: 28.2vw;
+}
+
+.botContainer p {
+    font-size: 2.1vw;
+    color: #ffffff;
+}
+
+.botContainer h2 {
+    font-size: 2.1vw;
+    color: #ffffff;
+}
+
+.botContainer img {
+    max-width: 12.6vw;
+    max-height: 12.6vw;
+
+
+}
+
+/*Time Range Style*/
+
+.dashboardContainer > .timeRangeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.timeRangeContainer {
+    padding: 1.3vw 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: unset;
+    flex-basis: unset;
+}
+
+.timeRangeContainer p {
+    color: #4F6076;
+    font-size: 2.6vw;
+    font-weight: bold;
+    margin: 0 0.66vw;
+}
+
+.timeRangeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    min-width: 16VW;
+    font-size: 2.6vw; ;
+    border-radius: 15px;
+    background-color: unset;
+    border: 1px solid #213246;
+    color: #4F6076;
+    outline: unset;
+}
+
+.timeRangeBtn:hover {
+    color: #6c819a;
+}
+
+.timeRangeBtn:focus {
+    outline: unset;
+}
+
+.timeRangeBtn.active {
+    border: 2px solid #8C939B;
+    color: #FFF;
+    outline: unset;
+    font-weight: bold;
+}
+
+

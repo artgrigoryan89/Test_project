@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+    src: url("./assets/fonts/icons/icons.eot") format('eot');
+    src: url("./assets/fonts/icons/icons.svg") format('svg');
+    src: url("./assets/fonts/icons/icons.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: local('Roboto'), local('Roboto-Regular'),
+    url('./assets/fonts/robotoRegular/Roboto-Regular.ttf') format('truetype'),
+    url('./assets/fonts/robotoRegular/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    src: url('./assets/fonts/robotoRegular/Roboto-Regular.eot');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.appContainer {
+    background-image: url("/assets/img/mainBackground.jpg");
+    min-height: 100vh;
+    background-size: cover;
+}
+
